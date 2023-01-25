@@ -7,7 +7,7 @@ import LoadingSpinner from "./components/UI/LoadingSpinner";
 // import QuoteDetail from "./pages/QuoteDetail";
 // import NewQuote from "./pages/NewQuote";
 // import NotFound from "./pages/NotFound";
-
+//
 const NewQuote = React.lazy(() => import("./pages/NewQuote"));
 const AllQuotes = React.lazy(() => import("./pages/AllQuotes"));
 const QuoteDetail = React.lazy(() => import("./pages/QuoteDetail"));
